@@ -30,6 +30,12 @@ class Main {
                 a[i]-=x;
             }
         }
+        public boolean isInRange(int x){
+            if(x>=l && x<=r){
+                return true
+            }
+            return false
+        }
     }
 	public static void main (String[] args) throws java.lang.Exception {
 	    Scanner in = new Scanner(System.in);
